@@ -1,6 +1,6 @@
 # ChurnSense | Customer Churn Prediction
 
-**ChurnSense** is a machine learning project focused on predicting customer churn and translating model predictions into actionable retention insights. It combines exploratory data analysis, model comparison, churn-risk evaluation, and an API-based prediction interface.
+**ChurnSense** is a machine learning project focused on predicting customer churn and translating model predictions into actionable retention insights. It combines exploratory data analysis, model comparison, churn-risk evaluation, and an API-based prediction user interface.
 
 The project explores how customer data can support churn identification, risk-based prioritization, and retention-oriented business decisions.
 
@@ -34,15 +34,15 @@ These metrics summarize the evaluated model's performance on the test set. The a
 
 ```text
 ChurnSense/
-├── api.py
-├── ChurnSENSE.ipynb
+├── app.py
+├── ChurnSense.ipynb
 └── README.md
 ```
 
 ### Files
 
 - **`ChurnSENSE.ipynb`** — Notebook containing the churn prediction workflow, data analysis, model training, and evaluation.
-- **`api.py`** — API application for serving churn predictions.
+- **`app.py`** — Streamlit application for serving churn predictions.
 - **`README.md`** — Project documentation, model results, and usage instructions.
 
 ## Machine Learning Workflow
@@ -53,7 +53,7 @@ ChurnSense/
 4. Evaluate model performance using appropriate validation metrics.
 5. Select a decision threshold for churn-risk classification.
 6. Use predictions to support customer prioritization and retention decisions.
-7. Expose predictions through the API.
+7. Expose predictions through the Streamlit UI.
 
 ## Business Application
 
