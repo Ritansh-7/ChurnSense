@@ -11,7 +11,7 @@ The project explores how customer data can support churn identification, risk-ba
 - **Model Evaluation:** Evaluate predictions using classification metrics, ROC-AUC, PR-AUC, confusion matrices, and probability-based metrics.
 - **Churn Risk Scoring:** Estimate customer churn probabilities and apply a decision threshold to classify risk.
 - **Retention Analytics:** Incorporate retention costs, expected value, and customer prioritization into business decisions.
-- **Prediction API:** Serve model predictions through a FastAPI application.
+- **Prediction API:** Serve model predictions through a Streamlit application.
 
 ## Model Performance
 
